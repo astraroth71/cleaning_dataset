@@ -8,5 +8,5 @@ This file describes how run_analysis.R script works.
 * Map activity using the name of the activity executed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 * Use ddply to calculate colMeans of allData.
 
-* This analysis will produce 2 files one called "tidy_dataset.txt" with all the train and test dataset merged and cleaned and another called "tidy_dataset_with_mean.txt" with the data with the average of each variable for each activity and each subject.
+* This analysis will produce 2 files one called "tidy_dataset.txt" with all the train and test dataset merged and cleaned and another called "tidy_dataset_with_mean.txt" , this one with the data where the average of each variable for each activity and each subject have been calculated.
 * A detailed description of the variables can be found in codebook.md
