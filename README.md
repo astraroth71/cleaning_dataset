@@ -6,7 +6,7 @@ This file describes how run_analysis.R script works.
 * Read data from test and train dataset, merge into a single table
 * Read "feautures.txt" and find the names contain "mean" or "std". 
 * Map activity using the name of the activity executed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-* Use ddply to calculate colMeans of all_data.
+* Use ddply to calculate colMeans of allData.
 
 * This analysis will produce 2 files one called "tidy_dataset.txt" with all the train and test dataset merged and cleaned and another called "tidy_dataset_with_mean.txt" with the data with the average of each variable for each activity and each subject.
 * A detailed description of the variables can be found in codebook.md
